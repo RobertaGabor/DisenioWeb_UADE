@@ -1,0 +1,93 @@
+<!--Ejercicio 1: Página web personal básica 
+
+Objetivo: Crear una página web personal simple con encabezado, navegación, sección principal y pie de página. 
+
+ 
+
+Contenido: 
+
+Encabezado: Logotipo, nombre y breve descripción. 
+
+Navegación: Enlaces a diferentes secciones de la página (inicio, sobre mí, proyectos, contacto). 
+
+Sección principal: Un artículo con información sobre ti, tus habilidades e intereses. 
+
+Pie de página: Información de contacto, derechos de autor y redes sociales. 
+
+ 
+
+Etiquetas a utilizar: 
+
+header, nav, main, article, section, footer 
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+</head>
+<body>
+<header>
+    <div style="display: flex; align-items: center; gap: 16px;">
+        <img src="imgs/logo.png" alt="Logotipo personal" style="width: 60px; height: 60px; border-radius: 50%;">
+        <div>
+            <h4 style="margin: 0; font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: #e75480;">
+                Roberta Gabor
+            </h4>
+            <p style="margin: 0; font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: #e75480;">
+                Desarrolladora web y entusiasta de la tecnología.
+            </p>
+        </div>
+    </div>
+</header>
+    <nav>
+    <ul style="list-style: none; display: flex; gap: 24px; margin: 16px 0; justify-content: center;">
+        <li><a href="#inicio" style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Inicio</a></li>
+        <li><a href="#sobremi" style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Sobre mí</a></li>
+        <li><a href="#proyectos" style=" color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Proyectos</a></li>
+        <li><a href="#contacto" style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Contacto</a></li>
+    </ul>
+    </nav>
+    <main>
+ <article>
+        <section id="inicio">
+            <h2 style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Inicio</h2>
+            <p>¡Bienvenida a mi página personal!</p>
+        </section>
+        <section id="sobremi">
+            <h2 style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Sobre mí</h2>
+            <p>
+            ¡Soy Roby! Mi nombre de juego Pokxcita también es bienvenido. Aquí encontrarás mis proyectos de la universidad y del trabajo.<br>
+            Soy Programadora Semi-Senior, he trabajado en proyectos con: Arduino Software, Javascript con CSS y HTML, C, C#, Typescript, Selenium, VBA, Python, Automation Anywhere y Power Automate, Power Apps, Angular.<br>
+            También tengo conocimientos en SQL SERVER. Las presentaciones de mis proyectos están todas en español, al igual que casi todos mis commits. Aquí puedes encontrar: C, C#, Javascript/HTML, Python, PHP.<br>
+            <p>🧑💻 Flujo de trabajo: Git cmd, Github, Branches, Gitlab.<br>
+            🧑💻 Sistemas operativos: Linux, Windows.
+            </p>
+        </p>
+        </section>
+        <section id="proyectos">
+            <h2 style="color: #e75480; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Proyectos</h2>
+                <a href="https://github.com/RobertaGabor" target="_blank" style="display: inline-block;">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle;">
+                    Mi GitHub
+                </a>
+    </article>
+    </main>
+<footer id="contacto">
+    <div style="text-align: center; margin-top: 32px;">
+        <p style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: #e75480; margin-bottom: 8px;">
+            Contacto:
+        </p>
+        <a href="https://github.com/RobertaGabor" target="_blank" style="display: inline-block; margin: 0 8px;">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 32px; height: 32px; vertical-align: middle;">
+        </a>
+        <a href="https://www.linkedin.com/in/robertagabor" target="_blank" style="display: inline-block; margin: 0 8px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 32px; height: 32px; vertical-align: middle;">
+        </a>
+        <p style="font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: #e75480; margin-top: 8px; font-size: 14px;">
+            © 2025 Roberta Gabor. Todos los derechos reservados.
+        </p>
+    </div>
+</footer>
+</body>
+</html>

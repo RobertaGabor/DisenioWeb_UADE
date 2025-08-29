@@ -1,0 +1,121 @@
+<!--
+Ejercicio 3: Página de producto 
+
+Objetivo: Crear una página de producto para un producto online, utilizando etiquetas para destacar información importante. 
+
+ 
+
+Contenido: 
+
+Encabezado: Imagen del producto, nombre y precio. 
+
+Sección principal: 
+
+Artículo: Descripción del producto, características y beneficios. 
+
+Aside: Testimonios de clientes satisfechos. 
+
+Figure: Imagen del producto en uso. 
+
+Pie de página: Información de contacto, política de devolución y garantía. 
+
+ 
+
+Etiquetas a utilizar: 
+
+header, main, article, section, aside, figure, figcaption, footer 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Producto</title>
+</head>
+<body>
+<header>
+    <div style="display: flex; align-items: center; gap: 24px;">
+        <img src="imgs/zapaas.jpg" alt="zapatillas Jordan red & white" style="width: 180px; height: 120px;">
+        <div>
+            <h1 style="margin: 0; font-family: 'Georgia', serif;">zapatillas Jordan red & white</h1>
+            <p style="font-size: 1.5em; color: #2a9d8f; margin: 8px 0 0 0;"><strong>$190.990</strong></p>
+        </div>
+    </div>
+</header>
+    <main>
+        <article>
+        <section>
+            <h2 style="font-family: 'Georgia', serif; color: #222;">Características</h2>
+            <ul style="font-family: 'Georgia', serif; color: #444;">
+                <li>Cuero genuino</li>
+                <li>Logo Wings estampado en el cuello</li>
+                <li>Logo Swoosh cosido</li>
+                <li>Suela de goma con tracción</li>
+                <li>Entresuela de espuma</li>
+                <li>Colores: Negro/Blanco/Starfish/Negro</li>
+                <li>Estilo: DZ5485-008</li>
+            </ul>
+            <h2 style="font-family: 'Georgia', serif; color: #222;">Beneficios</h2>
+            <ul style="font-family: 'Georgia', serif; color: #444;">
+                <li>El cuero ofrece durabilidad y estructura</li>
+                <li>Las unidades Air-Sole encapsuladas brindan amortiguación ligera</li>
+                <li>Las suelas de goma sólida ofrecen tracción en una variedad de superficies</li>
+            </ul>
+        </section>
+        </article>
+        <aside>
+            <h2 style="font-family: 'Georgia', serif; color: #222;">Testimonios de clientes satisfechos</h2>
+            <section>
+                <figure>
+                    <figcaption style="font-family: 'Georgia', serif; color: #444;">
+                        "Las zapatillas son súper cómodas y el diseño es espectacular. ¡Las uso todos los días!"<br>
+                        <strong>- Martina R.</strong>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <figcaption style="font-family: 'Georgia', serif; color: #444;">
+                        "Excelente calidad y llegaron rapidísimo. Muy recomendadas."<br>
+                        <strong>- Juan P.</strong>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <figcaption style="font-family: 'Georgia', serif; color: #444;">
+                        "Me encantó la atención al cliente y la garantía. Volvería a comprar sin dudas."<br>
+                        <strong>- Sofía L.</strong>
+                    </figcaption>
+                </figure>
+            </section>
+        </aside>
+        <figure style="display: flex; gap: 16px; justify-content: center;">
+            <img src="imgs/use2.jpg" alt="Producto en uso 1" width="300">
+            <img src="imgs/use3.jpg" alt="Producto en uso 2" width="300">
+        </figure>
+    </main>
+<footer>
+    <section>
+        <h2 style="font-family: 'Georgia', serif; color: #222; text-align: center;">Contacto</h2>
+        <p style="font-family: 'Georgia', serif; color: #444; text-align: center;">
+            Email: info@lasmejoreszapas.com<br>
+            Teléfono: +54 11 1234-xxxx
+        </p>
+    </section>
+    <section>
+        <h2 style="font-family: 'Georgia', serif; color: #222; text-align: center;">Política de devolución</h2>
+        <p style="font-family: 'Georgia', serif; color: #444; text-align: center;">
+            Podés devolver tu producto sin costo dentro de los 30 días de la compra si no estás satisfecho.
+        </p>
+    </section>
+    <section>
+        <h2 style="font-family: 'Georgia', serif; color: #222; text-align: center;">Garantía</h2>
+        <p style="font-family: 'Georgia', serif; color: #444; text-align: center;">
+            Todos nuestros productos cuentan con garantía oficial de 6 meses por defectos de fabricación.
+        </p>
+    </section>
+    <section>
+        <p style="font-family: 'Georgia', serif; color: #888; text-align: center; font-size: 0.9em;">
+            © 2025 Las mejores zapas. Todos los derechos reservados.
+        </p>
+    </section>
+</footer>
+</body>
+</html>
