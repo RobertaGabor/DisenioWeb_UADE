@@ -1,0 +1,46 @@
+h1 {
+  color:green;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2{
+  color:blue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3{
+  color:orange;
+}
+
+header p {
+  color:red;
+}
+
+header p span{
+  color: darkred;
+}
+
+#texto1 p{
+  color:greenyellow
+}
+#texto1 p span{
+  color:green
+}
+
+#texto2 p{
+  color:pink
+}
+#texto2 p span{
+  color:darkred
+}
+
+#texto3 p{
+  color:gray
+}
+#texto3 p span{
+  color:darkgray
+}
