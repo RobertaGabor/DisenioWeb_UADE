@@ -1,0 +1,124 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0 auto;
+  width: 1360px;
+  height: 768px;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Estilos generales de aside */
+section aside {
+  height: 100%;
+  padding-left: 5%;
+}
+
+/* Títulos */
+section h1 {
+  font-weight: 400;
+}
+.page1 h1 { font-family: "Questrial", sans-serif; font-size: 5em; }
+.page2 h1 { font-family: "Questrial", sans-serif; font-size: 4em; }
+.page3 h1 { font-family: "DM Serif Display", sans-serif; font-size: 4em; }
+.page5 h1 { font-size: 4em; }
+.page6 h1 { 
+  font-family: "Amaranth", sans-serif;
+  font-size: 4em;
+  text-shadow: 0 5px 6px #727272a5;
+}
+
+/* Párrafos */
+section p {
+  font-size: 1.1em;
+  font-weight: 200;
+}
+.page1 p { margin-top: 10%; }
+.page2 p { margin-top: 5%; }
+.page3 p { margin-top: 5%; }
+.page5 p { width: 80%; margin-top: 8%; font-weight: 100; }
+.page6 p { width: 75%; margin-top: 10%; font-weight: 500; }
+
+/* Botones */
+section button {
+  border: none;
+  padding: 15px 25px;
+  font-size: 1em;
+}
+.page1 button {
+  margin-top: 10%;
+  background-color: #fff;
+  font-weight: 600;
+}
+.page2 button {
+  margin-top: 8%;
+  background-color: #000;
+  color: #fff;
+}
+.page3 button {
+  margin-top: 10%;
+  background-color: #fff;
+  color: #101010;
+}
+
+/* Colores y fondos */
+.page1 {
+  color: #fff;
+  background: #141414 url("imgs1/imgs/man-working-night 1.png") right bottom no-repeat;
+  background-size: 67%;
+}
+.page1 aside { width: 50%; padding-top: 12%; }
+
+.page2 {
+  color: #000;
+  background: #f0f0f0 url("imgs1/imgs/graphics-1.png") right bottom no-repeat;
+  background-position: right 6% bottom 15%;
+}
+.page2 aside { width: 50%; padding-top: 18%; }
+
+.page3 {
+  color: #fff;
+  background: #101010 url("imgs1/imgs/buildings.png") no-repeat;
+  background-position: right 12% bottom 0;
+}
+.page3 aside { width: 40%; padding-top: 10%; }
+
+.page4 {
+  color: #fff;
+  background: #101010 url("imgs1/imgs/crowd.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.page5 {
+  border: 3px solid rgb(68, 104, 224);
+  color: #fff;
+  background: #02011e;
+  background-image: url("imgs1/imgs/chat.png"), url("imgs1/imgs/corners.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 10% bottom 30%, right bottom;
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+.page5::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 230px;
+  opacity: 20%;
+  inset: 0;
+  background: url("imgs1/imgs/corners.png") no-repeat;
+  rotate: 180deg;
+}
+.page5 aside { width: 60%; padding-top: 12%; }
+
+.page6 {
+  color: #18004c;
+  background: #e3ebf4 url("imgs1/imgs/rocket.png") no-repeat;
+  background-position: right 10% bottom 30%;
+}
+.page6 aside { width: 50%; padding-top: 18%; }
+.page6 span { color: #4f6aff; }
