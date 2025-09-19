@@ -1,0 +1,91 @@
+<!--Ejercicio 1: Página web personal básica 
+
+Objetivo: Crear una página web personal simple con encabezado, navegación, sección principal y pie de página. 
+
+ 
+
+Contenido: 
+
+Encabezado: Logotipo, nombre y breve descripción. 
+
+Navegación: Enlaces a diferentes secciones de la página (inicio, sobre mí, proyectos, contacto). 
+
+Sección principal: Un artículo con información sobre ti, tus habilidades e intereses. 
+
+Pie de página: Información de contacto, derechos de autor y redes sociales. 
+
+ 
+
+Etiquetas a utilizar: 
+
+header, nav, main, article, section, footer 
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+</head>
+<body>
+<header>
+        <img src="imgs/logo.png" alt="Logotipo personal" width="120px">
+        <div>
+            <h4>
+                Roberta Gabor
+            </h4>
+            <p>
+                Desarrolladora web y entusiasta de la tecnología.
+            </p>
+    </div>
+</header>
+    <nav>
+    <ul style="list-style: none">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremi" >Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    </nav>
+    <main>
+ <article>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>¡Bienvenida a mi página personal!</p>
+        </section>
+        <section id="sobremi">
+            <h2>Sobre mí</h2>
+            <p>
+            ¡Soy Roby! Mi nombre de juego Pokxcita también es bienvenido. Aquí encontrarás mis proyectos de la universidad y del trabajo.<br>
+            Soy Programadora Semi-Senior, he trabajado en proyectos con: Arduino Software, Javascript con CSS y HTML, C, C#, Typescript, Selenium, VBA, Python, Automation Anywhere y Power Automate, Power Apps, Angular.<br>
+            También tengo conocimientos en SQL SERVER. Las presentaciones de mis proyectos están todas en español, al igual que casi todos mis commits. Aquí puedes encontrar: C, C#, Javascript/HTML, Python, PHP.<br>
+            <p>🧑💻 Flujo de trabajo: Git cmd, Github, Branches, Gitlab.<br>
+            🧑💻 Sistemas operativos: Linux, Windows.
+            </p>
+        </p>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+                <a href="https://github.com/RobertaGabor" target="_blank">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="100px">
+                    Mi GitHub
+                </a>
+    </article>
+    </main>
+<footer id="contacto">
+    <div >
+        <p>
+            Contacto:
+        </p>
+        <a href="https://github.com/RobertaGabor" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="100px">
+        </a>
+        <a href="https://www.linkedin.com/in/robertagabor" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="100px">
+        </a>
+        <p>
+            © 2025 Roberta Gabor. Todos los derechos reservados.
+        </p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Business: portfolio
+Keywords: graphic tees, irreverent humor, 90s mtv aesthetic, grunge
+Main Font: Lilita One
+Body Font: Overpass
+Font Justification: Lilita One is very readable and casual which makes it the perfect choice for titles. Overpass is legible and simple, great for the body.
+Primary Color: #D32F2F
+Secondary Color: #FDD835
+Accent Color: #757575
+Palette Justification: The primary color, a strong red, creates impact and visual emphasis. It aligns with the irreverent style of graphic tees. The secondary color, a bright yellow, adds a sense of humor and retro nostalgia, capturing the essence of the 90s MTV aesthetic. A neutral gray serves as an accent color, grounding the palette and ensuring readability.
+Brand Tagline: Tees with an attitude
+Picture: https://www.pexels.com/photo/person-coloring-on-her-notebook-10600766/

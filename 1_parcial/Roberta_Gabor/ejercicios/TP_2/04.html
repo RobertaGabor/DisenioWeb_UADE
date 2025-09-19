@@ -1,0 +1,150 @@
+<!--
+Ejercicio 4: Sitio web de noticias 
+
+Objetivo: Crear una página web de noticias con diferentes secciones y artículos, utilizando etiquetas para organizar el contenido. 
+
+ 
+
+Contenido: 
+
+Encabezado: Logotipo del sitio web, nombre. 
+
+Navegación: Enlaces a las diferentes secciones de noticias (nacional, internacional, deportes, economía). 
+
+Sección principal: 
+
+Section: Artículos destacados de la sección seleccionada. 
+
+Article: Cada artículo con título, imagen, resumen y enlace a la noticia completa. 
+
+Aside: Publicidad o banners informativos. 
+
+Pie de página: Información de contacto, política de privacidad y términos de uso. 
+
+ 
+
+Etiquetas a utilizar: 
+
+header, nav, main, section, article, aside, figure, figcaption, footer 
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sitio de Noticias</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="imgs/logonoticias.jpg" alt="Logotipo personal" width="60">
+        <div>
+            <h4>
+                Mega noticias
+            </h4>
+            <p>
+                Noticias de paraguay.
+            </p>
+        </div>
+    </div>
+    </header>
+    <nav>
+        <nav>
+         <ul>
+        <li><a href="#nacional">Nacional</a></li>
+        <li><a href="#internacional">Internacional</a></li>
+        <li><a href="#deportes">Deportes</a></li>
+        <li><a href="#economia" >Economía</a></li>
+    </ul>
+</nav>
+    </nav>
+    <main>
+<main>
+    <section id="nacional">
+        <h2>Nacional</h2>
+        <article>
+            <h3">Gobierno anuncia nuevas medidas económicas</h3>
+            <figure>
+                <img src="imgs/gobern.webp" alt="Medidas económicas" width="300">
+                <figcaption>El ministro de Economía en conferencia de prensa.</figcaption>
+            </figure>
+            <p>El gobierno presentó un paquete de medidas para impulsar la economía nacional y apoyar a las pequeñas y medianas empresas.</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+
+    <section id="internacional">
+        <h2>Internacional</h2>
+        <article>
+            <h3>Cumbre internacional sobre cambio climático</h3>
+            <figure>
+                <img src="imgs/international.jpg" alt="Cumbre climática" width="300">
+                <figcaption>Líderes mundiales reunidos en la cumbre.</figcaption>
+            </figure>
+            <p>Representantes de más de 50 países se reunieron para debatir acciones urgentes frente al cambio climático global.</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+
+    <section id="deportes">
+        <h2>Deportes</h2>
+        <article>
+            <h3>El clásico termina en empate</h3>
+            <figure>
+                <img src="imgs/furbol.jpg" alt="Clásico de fútbol" width="300">
+                <figcaption>Los equipos rivales disputando el balón.</figcaption>
+            </figure>
+            <p>El esperado clásico del fútbol paraguayo finalizó 2-2 en un partido lleno de emociones y goles.</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+
+    <section id="economia">
+        <h2>Economía</h2>
+        <article>
+            <h3>El dólar alcanza su valor más bajo del año</h3>
+            <figure>
+                <img src="imgs/dolar-blue-bajajpg.webp" alt="Dólar en baja" width="300">
+                <figcaption>El mercado financiero experimenta cambios.</figcaption>
+            </figure>
+            <p>La moneda estadounidense cayó frente al guaraní, generando expectativas positivas en el sector importador.</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+<aside>
+    <section>
+        <h4>Publicidad</h4>
+        <figure>
+            <img src="imgs/red-7715214_1280.png" alt="Banner publicitario" width="250">
+            <figcaption>¡Suscribite y recibí las noticias al instante!</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h4>Información</h4>
+        <figure>
+            <img src="imgs/app.webp" alt="Banner informativo" width="250">
+            <figcaption>Descargá nuestra app y seguí informado donde estés.</figcaption>
+        </figure>
+    </section>
+</aside>
+    </main>
+<footer>
+    <section>
+        <h4>Contacto</h4>
+        <p>Email: contacto@meganoticias.com<br>
+        Teléfono: +595 21 123 456</p>
+    </section>
+    <section>
+        <h4>Política de Privacidad</h4>
+        <p>Leé nuestra <a href="#">política de privacidad</a> para saber cómo protegemos tus datos.</p>
+    </section>
+    <section>
+        <h4>Términos de Uso</h4>
+        <p>Consultá los <a href="#">términos y condiciones</a> de nuestro sitio.</p>
+    </section>
+    <section>
+        <p>&copy; 2025 Mega noticias. Todos los derechos reservados.</p>
+    </section>
+</footer>
+</body>
+</html>
