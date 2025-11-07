@@ -1,0 +1,101 @@
+Consigna de Entrega – Portfolio con Bootstrap
+
+Objetivo
+Realizar una nueva versión del portfolio personal, integrando los ejercicios 5 al 10 desarrollados durante la cursada.
+
+El proyecto debe maquetarse completamente con Bootstrap 5, incorporando componentes interactivos y aplicando una personalización visual mediante CSS.
+
+El alumno podrá crear un diseño desde cero o reutilizar el portfolio del Parcial 1, adaptándolo a los nuevos requisitos. En cualquier caso, el resultado deberá funcionar como un proyecto unificado, navegable y correctamente vinculado a los ejercicios previos.
+
+
+Requisitos técnicos
+
+Bootstrap 5: se podrá vincular desde el CDN o descargar los archivos locales.
+
+
+En caso de optar por descarga, crear una carpeta llamada /vendors donde se aloje la librería.
+
+En esta carpeta también se alojarán los plugins u otros proyectos de 3ros.
+
+Componente de navegación: incluir un elemento de Bootstrap, pudiendo elegir entre navbar u offcanvas.
+
+Carrusel: integrar un carrusel de al menos tres imágenes con epígrafes, ubicado debajo del nombre y descripción personal.
+
+
+Podrá ser el componente nativo de Bootstrap o un plugin en JavaScript/jQuery.
+
+Galería: utilizar objetos Card de Bootstrap para mostrar los proyectos realizados (Ejercicios 5 al 10).
+
+
+Cada card debe incluir una imagen miniatura, una breve descripción y un botón que redireccione a la carpeta correspondiente del ejercicio.
+
+Las cards deben disponerse en un grid responsive (tres columnas en escritorio, dos en tablet, una en móvil).
+
+Javascript: Inclusión de al menos 1 plugin de jQuery que agregue interacción o comportamientos interactivos.
+
+CSS personalizado: crear un archivo externo (por ejemplo, custom.css dentro de /css/) que sobrescriba las reglas de Bootstrap según las mejoras o personalizaciones del alumno.
+
+HTML5 semántico: mantener una estructura clara y ordenada con uso correcto de <header>, <main>, <section>, <footer>.
+
+
+Requisitos de diseño
+
+Tipografía y colores: el alumno podrá mantener la estética definida en el primer portfolio o generar una nueva, siempre que haya coherencia visual.
+
+Jerarquía y coherencia: cuidar los tamaños de títulos, espaciados, márgenes y contraste de color.
+
+Diseño adaptable: el contenido debe poder navegarse en todas las resoluciones sin generar scroll horizontal.
+
+Accesibilidad: todas las imágenes deben tener atributo alt descriptivo y enlaces con target="_blank" cuando se dirijan a redes o sitios externos.
+
+
+Contenido obligatorio
+
+Nombre completo en un <h1>.
+
+Descripción breve o presentación personal debajo del título.
+
+Carrusel con tres imágenes y sus epígrafes.
+
+Galería de proyectos (Ejercicios 5 al 10) organizada con componentes Card.
+
+Información de contacto: e-mail, teléfono y/o redes sociales con íconos de Bootstrap 5.
+
+Footer con créditos o información complementaria.
+
+jQuery y plugins: Incluir al menos un plugin y configurarlo correctamente. 
+
+
+Bonus: mejoras y propuestas personales
+Se valorará la incorporación de mejoras adicionales que reflejen iniciativa y dominio de la herramienta, tales como:
+
+
+Efectos hover o animaciones en cards o botones.
+
+Personalización avanzada de tipografías y/o colores de Bootstrap.
+
+Inclusión de badges, íconos decorativos o microinteracciones.
+
+Uso de transiciones suaves o librerías de animación (por ejemplo, AOS.js).
+
+Incorporación de plugins de jQuery
+
+Propuestas estéticas o estructurales desarrolladas por el alumno que aporten coherencia visual y funcionalidad.
+
+
+Entrega
+
+Archivo comprimido .zip con el nombre Apellido_Nombre.zip.
+
+Estructura de carpetas sugerida:
+
+
+
+Apellido_Nombre/
+ │
+├── index.html
+├── /vendors
+├── /css
+├── /img
+├── /ejercicios  (ejercicio05 a ejercicio10)
+└── /js

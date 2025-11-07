@@ -1,0 +1,102 @@
+/* Estilos base para blog.html */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+.articles-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.article {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.article-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.4rem;
+  margin: 15px 10px 10px;
+  color: #333;
+}
+
+.article p {
+  padding: 0 15px 15px;
+  color: #555;
+}
+
+/* ========================================
+   EJERCICIOS: Añade tus media queries aquí
+   ======================================== */
+
+
+/* 1. Aumentar tamaño de fuente del body cuando ancho ≤ 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* 2. Cambiar el contenedor de artículos a una sola columna centrada cuando ancho ≤ 768px */
+@media (max-width: 768px) {
+  .articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+/* 3. Cambiar la fuente de los títulos a Arial cuando ancho ≤ 576px */
+@media (max-width: 576px) {
+  .article-title {
+    font-family: 'Arial', sans-serif;
+  }
+}
+
+/* 4. Reducir el ancho de las imágenes del blog al 80% y mantener proporción cuando ancho ≤ 540px */
+@media (max-width: 540px) {
+  .article-img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}

@@ -1,0 +1,41 @@
+/* ======== Estilos base ======== */
+.header {
+  background: pink;
+}
+
+.block-1 {
+  background: red;
+}
+
+.block-2 {
+  background: lightskyblue;
+}
+
+.block-3 {
+  background: red;
+}
+
+/* ======== Media Queries ======== */
+
+/* sm - desde 576px */
+@media screen and (min-width: 576px) {
+  .header {
+    background: lightskyblue;
+  }
+  .block-2 {
+    background: red;
+  }
+  .block-3 {
+    background: lime;
+  }
+}
+
+/* md - desde 768px */
+@media screen and (min-width: 768px) {
+  .header {
+    background: green;
+  }
+  .block-3 {
+    background: red;
+  }
+}
